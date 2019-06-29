@@ -109,7 +109,7 @@ if __name__=='__main__':
 
     print("Saving................")
 
-    tiff.imsave("cache/test_0207_17000.tif",label)
+    tiff.imsave("cache/test_0207_17000.tif", arr)
     end = datetime.datetime.now()
 
     plt.imshow(arr)
